@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Alexandre de Montemart</title>
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" type="text/css" href="indexSlideShow/demoStyleSheet.css" />
+		<link rel="stylesheet" type="text/css" href="css/global.css" />
+
+
+		<script type="text/javascript" src="js/production-min.js"></script>
+		<script type="text/javascript" src="indexSlideShow/jquery.js"></script>
+		<script type="text/javascript" src="indexSlideShow/fadeSlideShow.js"></script>
+		<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery('#slideshow').fadeSlideShow();
+		});
+		</script>
+	</head>
+
+	<body>
+		<header>
+			<div class="nav-menu">
+
+				<div class="menu-button">
+					<a id="menu-button" href="#">Menu</a>
+				</div>
+				<nav class="menu-list">
+				  <ul>
+					  <li>
+						  <a href="index_b.html">Home</a>
+					  </li>
+					<li>
+						<a href="collections.html">Photography</a>
+					</li>
+					<li>
+						<a href="films.html">Films</a>
+					</li>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="">News</a>
+					</li>
+					<li>
+						<a href="">Contact</a>
+					</li>
+				  </ul>
+				</nav>
+			</div>
+		</header>
+
+		<div id="slideshowWrapper">
+		    <ul id="slideshow">
+		        <li><img src="indexSlideShow/images/3.jpg" width="600" height="840" border="0" alt="" /></li>
+		        <li><img src="indexSlideShow/images/2.jpg" width="600" height="840" border="0" alt="" /></li>
+		        <li><img src="indexSlideShow/images/1.jpg" width="600" height="840" border="0" alt="" /></li> <!-- This is the first image in the slideshow -->
+		    </ul><br clear="all" />
+		</div>
+		<footer class="footer">
+			<p>
+
+			</p>
+		</footer>
+
+	</body>
+</html>

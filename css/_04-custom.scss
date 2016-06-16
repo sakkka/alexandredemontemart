@@ -1,0 +1,71 @@
+.menu-button {
+    position: absolute;
+	display: block;
+    color: #C0BAB6;
+    padding: 14px 16px;
+    text-decoration: none;
+    overflow: hidden;
+    float: left;
+    width: 40%;
+    text-align: left;
+    a {
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+.opened {
+    width: 40%;
+}
+
+.nav-menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    height: 45px;
+}
+.menu-list {
+    position: relative;
+    margin: auto;
+	display: block;
+    color: #C0BAB6;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    float: left;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    text-decoration: underline;
+}
+
+nav li a.active {
+    background-color: #4CAF50;
+}
+
+.footer {
+    height:auto;
+}

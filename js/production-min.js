@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".menu-list").hide(),$("#menu-button").click(function(){$(".menu-list").fadeToggle()}),console.log("ready!")}),$(".slider").click(function(){alert("haha")});
