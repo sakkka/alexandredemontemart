@@ -1,4 +1,4 @@
-$( document ).ready( function() {
+$(function(){
 
 	$('.menu-list').hide();
 
@@ -9,7 +9,9 @@ $( document ).ready( function() {
 
 	console.log( "ready!" );
 
+
+	$('.slider').click( function() {
+		alert("hihi"); 
+	});
+
 });
-$('.slider').click( function() {
-	alert("haha");
-})

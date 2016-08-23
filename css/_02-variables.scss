@@ -1,0 +1,65 @@
+$wrapper-width: 		100%;
+$container-width: 		1240px;
+$gutter-width: 			40px;
+$max-columns: 			12;
+
+/* Screen size breakpoints for media queries */
+$xs-screen: 			360px;
+$xs-screen-landscape: 	640px;
+$sm-screen: 			768px;
+$sm-screen-landscape: 	1024px;
+$md-screen: 			992px;
+$lg-screen: 			1200px;
+
+/*  colors  */
+$primary-color: 		#fff;
+$secondary-color: 		#04A094;
+$tertiary-color: 		#057A9E;
+$quaternary-color: 		#2d2d2d;
+
+/* fonts */
+@include declare-font-face(Raleway, raleway-regular-webfont, normal);
+
+$base-font-family: Raleway, Helvetica, Arial, sans-serif;
+$headings-font-family: Raleway, Helvetica, Arial, sans-serif;
+$nav-font-family: Raleway, Helvetica, Arial, sans-serif; 
+
+$base-font-size: 18px;
+$h1-font-size: 2.2em;
+$h2-font-size: 1.5em;
+$h3-font-size: 1.3em;
+$h4-font-size: 1.2em;
+
+/* Social Bar */
+$social-bar-bg-color: darken($quaternary-color,20%);
+$social-bar-links-color: $secondary-color;
+$social-bar-links-color-hover: $tertiary-color;
+$social-bar-links-bg-color: $primary-color;
+$social-bar-links-bg-color-hover: lighten($tertiary-color,30%);
+$social-bar-font-size: 1.7em;
+
+/* Nav Bar */
+/*$nav-bar-bg-color: darken($quaternary-color,20%);*/
+$nav-bar-links-color: $quaternary-color;
+$nav-bar-links-color-hover: $secondary-color;
+/*$nav-bar-links-bg-color: $primary-color;*/
+/*$nav-bar-links-bg-color-hover: lighten($tertiary-color,30%);*/
+$nav-bar-font-size: 1em;
+
+/* Header */
+$header-bg-color: $primary-color;
+
+/* Footer */
+$footer-bg-color: $quaternary-color;
+
+/* Optional files */
+$use-slider: false;
+
+
+
+
+
+
+
+
+
