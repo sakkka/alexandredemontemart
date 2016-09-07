@@ -10,8 +10,5 @@ $(function(){
 	console.log( "ready!" );
 
 
-	$('.slider').click( function() {
-		alert("hihi"); 
-	});
-
+	
 });

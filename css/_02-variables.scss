@@ -9,13 +9,13 @@ $xs-screen-landscape: 	640px;
 $sm-screen: 			768px;
 $sm-screen-landscape: 	1024px;
 $md-screen: 			992px;
-$lg-screen: 			1200px;
+$lg-screen: 			1200px; 
 
 /*  colors  */
 $primary-color: 		#fff;
-$secondary-color: 		#04A094;
-$tertiary-color: 		#057A9E;
-$quaternary-color: 		#2d2d2d;
+$secondary-color: 		#9e9e9e;
+$tertiary-color: 		#2d2d2d;
+$quaternary-color: 		#c70000;
 
 /* fonts */
 @include declare-font-face(Raleway, raleway-regular-webfont, normal);
@@ -30,18 +30,11 @@ $h2-font-size: 1.5em;
 $h3-font-size: 1.3em;
 $h4-font-size: 1.2em;
 
-/* Social Bar */
-$social-bar-bg-color: darken($quaternary-color,20%);
-$social-bar-links-color: $secondary-color;
-$social-bar-links-color-hover: $tertiary-color;
-$social-bar-links-bg-color: $primary-color;
-$social-bar-links-bg-color-hover: lighten($tertiary-color,30%);
-$social-bar-font-size: 1.7em;
-
 /* Nav Bar */
 /*$nav-bar-bg-color: darken($quaternary-color,20%);*/
-$nav-bar-links-color: $quaternary-color;
-$nav-bar-links-color-hover: $secondary-color;
+$nav-bar-links-color: $secondary-color;
+$nav-bar-links-color-hover: $tertiary-color;
+$nav-bar-links-color-active: $quaternary-color;
 /*$nav-bar-links-bg-color: $primary-color;*/
 /*$nav-bar-links-bg-color-hover: lighten($tertiary-color,30%);*/
 $nav-bar-font-size: 1em;
@@ -50,7 +43,7 @@ $nav-bar-font-size: 1em;
 $header-bg-color: $primary-color;
 
 /* Footer */
-$footer-bg-color: $quaternary-color;
+$footer-bg-color: $primary-color;
 
 /* Optional files */
 $use-slider: false;

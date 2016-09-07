@@ -7,11 +7,11 @@
 ?>
 
 
-	<div id="slideshowWrapper">
-	    <ul id="slideshow">
-	        <li><img src="indexSlideShow/images/3.jpg" width="600" height="840" border="0" alt="" /></li>
-	        <li><img src="indexSlideShow/images/2.jpg" width="600" height="840" border="0" alt="" /></li>
-	        <li><img src="indexSlideShow/images/1.jpg" width="600" height="840" border="0" alt="" /></li> <!-- This is the first image in the slideshow -->
+	<div>
+	    <ul class="bxslider clearfix">
+	        <li><img src="images/3.jpg" border="0" alt="" /></li>
+	        <li><img src="images/2.jpg" border="0" alt="" /></li>
+	        <li><img src="images/1.jpg" border="0" alt="" /></li> <!-- This is the first image in the slideshow -->
 	    </ul><br clear="all" />
 	</div>
 

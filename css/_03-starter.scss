@@ -1,6 +1,7 @@
 html,
 body {
 	height: 100%;
+	font-family: $base-font-family;
 }
 html {
 	font-size: $base-font-size;
@@ -36,7 +37,8 @@ a {
 .container:before,
 .container:after,
 .row:before,
-.row:after{
+.row:after,
+.clearfix:after{
 	display: table;
 	content: "";
 	clear: both;
@@ -87,10 +89,9 @@ nav {
 		}
 	}
 	li.active{
-		border-bottom: 2px solid $nav-bar-links-color-hover;
 
 		a{
-			color: $nav-bar-links-color-hover;
+			color: $nav-bar-links-color-active;
 		}
 	}
 	
@@ -98,7 +99,6 @@ nav {
 
 #main-header {
 	background-color: $header-bg-color;
-	border-bottom: 5px solid $secondary-color;
 }
 
 #main-footer {

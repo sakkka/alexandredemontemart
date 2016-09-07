@@ -1,7 +1,7 @@
 		</div>
 
 		<footer class="wrapper" id="main-footer">
-			<div class="container"></div>
+			<p>&copy; 2016 Alexandre de Montemart</p>
 		</footer>
 
 	</body>
