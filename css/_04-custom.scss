@@ -34,6 +34,11 @@ nav{
 }
 
 /*** CONTENT ***/
+#main-content {
+    .container {
+        padding: 5em 1.5em 8em;
+    }
+}
 
 /** Slider **/
 .bxslider{
@@ -50,6 +55,75 @@ nav{
 }
 
 
+/** Collections **/
+#collections a{
+    color: $tertiary-color;
+    text-decoration: none;
+
+    &:hover .collection_name{
+        color: $quaternary-color;
+    }
+}
+.collections {    
+    margin-bottom: 2em;
+    max-width: 600px;
+
+    .collection_name{
+        font-weight: 500;
+        margin: 1.5em 0 .2em;
+    }
+    .collection_dates{
+        color: $secondary-color;
+        margin: .2em 0;
+    }
+}
+
+
+/** Contact **/
+.contact {
+    .info {
+        padding-left: 10%;
+    }
+    h1 {
+        color: $quaternary-color;
+        font-size: 1.4em;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    span {
+        font-weight: 500;
+    }
+    input, textarea{
+        font-size: 1em;
+        margin: .3em 0;
+        border: 1px solid lighten($tertiary-color, 40%);
+        background-color: lighten($secondary-color, 36%);
+        padding: .45em .6em;
+        width: 100%;
+        max-width: 550px;
+
+        &:focus{
+            border: 1px solid $tertiary-color;
+            outline: none;
+        }
+    }
+    button{        
+        background-color: $tertiary-color;      
+        border: none;
+        color: $primary-color;
+        font-weight: 500;
+        margin-top: .3em;
+        padding: .6em 2.5em;  
+        text-transform: uppercase;
+
+        &:hover{
+            background-color: $quaternary-color;
+        }
+    }
+}
+
+
+
 /*** FOOTER ***/
 footer {
 
@@ -58,5 +132,44 @@ footer {
         margin: 0;
         padding: .5em 1em;
         text-align: center;
+    }
+}
+
+
+/********************
+*** MEDIA QUERIES ***
+*********************/
+@media all and (max-width: $md-screen){
+    .collections{
+        float: none;
+        margin: 1.5em auto;
+    }
+}
+
+@media all and (max-width: $sm-screen){
+    .contact {
+        .info{
+            margin-bottom: 2em;
+            padding-left: 0;
+            text-align: center;
+        }
+        form {
+            text-align: center;
+        }
+    }
+}
+
+@media all and (max-width: $xs-screen-landscape){
+    #main-content .container {
+        padding: 3em .8em;
+    }
+    .collection_img, .collection_info{
+        float: none;
+        margin: auto;
+        width: auto;
+        max-width: 350px;
+    }
+    .collections .collection_name{
+        margin-top: 1em;
     }
 }

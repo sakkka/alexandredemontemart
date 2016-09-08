@@ -26,7 +26,7 @@
 					pager : false
 				});
 
-				var sliderHeight = $(window).height() - $('header').height();
+				var sliderHeight = $(window).height() - ( $('header').height() + $('footer').height() );
 				$('.bx-viewport').height(sliderHeight);
 				console.log(sliderHeight);
 
